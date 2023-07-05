@@ -1,0 +1,36 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-1
+{
+    display: flex;
+    justify-content: center;
+}
+.container-2
+{
+    display: flex;
+    justify-content: center;
+}
+.container-3
+{
+    justify-content: center;
+    display: flex;
+}
+.a 
+{
+    border: black;
+}
+.container-4
+{
+    display: flex;
+    justify-content: center;
+}
+.sect1
+{
+    display: flex;
+}
+.sect2
+{
+    display: flex;
+}
