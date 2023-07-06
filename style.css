@@ -17,20 +17,24 @@ body
     justify-content: center;
     display: flex;
 }
-.a 
+.container-3 .sect1
 {
-    border: black;
+    justify-content: space-between;
 }
-.container-4
-{
-    display: flex;
-    justify-content: center;
-}
-.sect1
+.c 
 {
     display: flex;
 }
-.sect2
+.d
 {
     display: flex;
 }
+@media screen and (max-width:1100px)
+ {
+     .container{height: 100%;}
+     .container-1{height: 100%;}
+     .container-3{height: 100%;}
+     .container-2{height: 100%;}
+     .container-4{height: 100%;}
+}
+ 
