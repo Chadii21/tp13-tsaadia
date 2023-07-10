@@ -1,12 +1,10 @@
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
-
 .container-1
 {
     display: flex;
-    background-color: black;
     justify-content: center;
 }
 .container-2
@@ -27,10 +25,20 @@ body
 {
     display: flex;
 }
-
- @media screen and (max-width: 700px) {
-    .container-1{
-    background-color: aqua;
-
+@media screen and (max-width: 500px) {
+  
+    .container-3
+    .container-2
+    .container-3 {
+        width: 70%;
+    }
 }
+
+ @media screen and (max-width: 1070px) {
+ .container
+ {
+     max-width: 100%;
+     height: auto;
+     display: block;
+ }
 }
